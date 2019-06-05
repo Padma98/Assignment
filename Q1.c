@@ -89,6 +89,7 @@ it is in the form: aY^2+bY+c = 0
             else
                 printf("Eigen vectors are [%.2f  %.2f] and [%.2f  %.2f]",V1[0],V1[1],V2[0],V2[1]);
         }
+    return 0;
 }
 
 
