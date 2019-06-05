@@ -33,7 +33,7 @@ sqr: Square root of the area d. Edge length of the square
 import math
 d = int(input('Enter the area of the square, d: '))
 sqr = math.sqrt(float(d))
-
+#Assuming only the integer squares
 #The float square root of d if squared gives the value same as d iff d is a perfect square
 if(int(sqr)**2 == d):
     diag = math.sqrt(2*d)
